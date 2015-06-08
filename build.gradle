@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.valsatech.zerotouch.cms'
+version = '0.0.1-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.testng', name: 'testng', version:'6.9.4'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'2.46.0'
+    compile group: 'com.opera', name: 'operadriver', version:'1.5'
+}
