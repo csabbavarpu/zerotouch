@@ -1,0 +1,55 @@
+# Ignore all directories and files in target.
+build/
+gen/
+bin/
+tmp/
+
+.metadata
+.gradle
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Maven
+log/
+target/
+
+# Eclipse Core
+.project
+.classpath
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Java specific ignores
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Mac
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
